@@ -12,7 +12,9 @@
 <main class="app">
 <header>
 <h1>Multiplications</h1>
+<button id="installBtn" class="install-btn" aria-hidden="true">Installer</button>
 </header>
+
 
 <section class="card">
 <div class="question" id="question">— × — = ?</div>
@@ -28,8 +30,19 @@
 <div id="feedback" class="feedback" aria-live="polite"></div>
 
 
+<div class="meta">
+<div>Score : <span id="score">0</span></div>
+<div>Streak : <span id="streak">0</span></div>
+</div>
+
+
 <button id="nextBtn" class="next hidden">Question suivante</button>
 </section>
+
+
+<footer>
+<small>Conçu pour téléphone — ton violet.</small>
+</footer>
 </main>
 
 
